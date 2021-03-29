@@ -11,9 +11,9 @@ tags:
   - cookies
 ---
 
-With the implementation of GDPR and CCPA, it seems like every website has to have their own half-baked implementation of a cookie consent banner. For the uninitiated, these are the banners that appear at the bottom of webpages that say "Accept Cookies" or "Decline". These banners can sometimes take up half the viewport or not be responsive on mobile. Moreover, it seems really common that these [banners often have serious accessibility issues that might make them non-compliant](https://uxdesign.cc/cookie-banners-and-accessibility-d476bf9ee4fc).
+With the implementation of GDPR and CCPA, every website has to have their own half-baked implementation of a cookie consent banner. For the uninitiated, these are the banners that appear at the bottom of webpages that say "Accept Cookies" or "Decline". These banners can sometimes take up half the viewport or not be responsive on mobile. Moreover, it's really common that these [banners often have serious accessibility issues that might make them non-compliant](https://uxdesign.cc/cookie-banners-and-accessibility-d476bf9ee4fc).
 
-It seems there should be a better way.
+There should be a better way.
 
 What if browsers could have a similar native UX implementation for cookie consent as with getting access to the microphone, for example? The user experience I'm thinking about here is as follows: the user would be prompted in the browser context whether or not to allow access to cookies when navigating to a webpage. There's a lot of room in the design space here to make sure that the user is in control while minimizing the damage to the user experience on the web.
 
@@ -29,7 +29,7 @@ It's probable that a cookie interface for the browser wouldn't be granular enoug
 
 #### Roadblock 3: Regulatory patchwork
 
-This seems like the main roadblock for the near future. A lot of these laws are in their infancy, and many jurisdictions are considering their regulatory frameworks on data privacy right now.
+This is probably the main roadblock for the near future. A lot of these laws are in their infancy, and many jurisdictions are considering their regulatory frameworks on data privacy right now.
 
 To me, and this could be totally naive, this is actually an argument for writing a standard now. If there's a consistent standard that gets negotiated with all parties at the table, it seems like it's way easier to lobby governments across the world that they should write regulation that matches the standard.
 
